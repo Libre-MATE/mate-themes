@@ -1,10 +1,9 @@
-AC_PREREQ(2.53)
-
 AC_INIT([mate-themes],
         [3.22.23],
         [https://github.com/Libre-MATE/mate-themes/issues],
         [mate-themes],
         [https://github.com/Libre-MATE/mate-themes/])
+AC_PREREQ(2.53)
 
 AC_CONFIG_SRCDIR([icon-themes])
 
