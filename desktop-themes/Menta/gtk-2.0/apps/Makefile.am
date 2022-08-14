@@ -21,3 +21,5 @@ SUBDIRS = Handles \
 	Caja \
 	Null \
 	Others
+
+-include $(top_srcdir)/git.mk

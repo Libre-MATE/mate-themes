@@ -10,3 +10,5 @@ theme_DATA = \
 	nohl-generic-border.png
 
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk

@@ -9,3 +9,5 @@ theme_DATA = \
 	resize-grip.png
 
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk

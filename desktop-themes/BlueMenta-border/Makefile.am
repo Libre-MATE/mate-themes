@@ -5,3 +5,5 @@ theme_DATA = COPYING README
 
 SUBDIRS = metacity-1
 
+
+-include $(top_srcdir)/git.mk

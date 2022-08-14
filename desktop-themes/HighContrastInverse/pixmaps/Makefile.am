@@ -60,3 +60,5 @@ pixmap_DATA = \
 	stock_info.png stock_harddisk.png \
 	$(NULL)
 
+
+-include $(top_srcdir)/git.mk

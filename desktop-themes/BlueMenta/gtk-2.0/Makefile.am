@@ -6,3 +6,5 @@ EXTRA_DIST = $(theme_DATA)
 
 SUBDIRS = apps \
 	widgets
+
+-include $(top_srcdir)/git.mk

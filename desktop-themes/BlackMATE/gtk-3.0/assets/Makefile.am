@@ -91,3 +91,5 @@ theme_DATA = \
 	trough-border-vertical-dark.svg
 
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk

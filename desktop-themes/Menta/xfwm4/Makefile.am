@@ -60,3 +60,5 @@ theme_DATA = \
 	top-right-inactive.xpm
 	
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk

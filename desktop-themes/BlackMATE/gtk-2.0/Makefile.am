@@ -8,3 +8,5 @@ EXTRA_DIST = $(theme_DATA)
 
 SUBDIRS = assets \
 			Styles
+
+-include $(top_srcdir)/git.mk

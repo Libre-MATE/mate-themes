@@ -19,3 +19,5 @@ SUBDIRS = \
 DIST_SUBDIRS = \
 	Handles \
 	Panel
+
+-include $(top_srcdir)/git.mk

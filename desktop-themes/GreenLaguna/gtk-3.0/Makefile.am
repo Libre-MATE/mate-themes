@@ -28,3 +28,5 @@ SUBDIRS = \
 	assets \
 	window-controls
 
+
+-include $(top_srcdir)/git.mk

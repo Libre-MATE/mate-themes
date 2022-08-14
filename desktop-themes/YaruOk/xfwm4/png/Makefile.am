@@ -36,3 +36,5 @@ theme_DATA = \
 	top-right-inactive.png
 
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk

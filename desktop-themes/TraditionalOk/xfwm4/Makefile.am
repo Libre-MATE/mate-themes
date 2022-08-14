@@ -50,3 +50,5 @@ theme_DATA = \
 EXTRA_DIST = $(theme_DATA)
 
 SUBDIRS = png
+
+-include $(top_srcdir)/git.mk

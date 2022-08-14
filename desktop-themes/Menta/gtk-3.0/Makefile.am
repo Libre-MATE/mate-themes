@@ -30,3 +30,5 @@ SUBDIRS = \
 	assets \
 	borders \
 	window-controls
+
+-include $(top_srcdir)/git.mk

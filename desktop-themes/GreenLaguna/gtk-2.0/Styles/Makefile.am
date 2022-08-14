@@ -6,3 +6,5 @@ theme_DATA = \
 	caja.rc
 
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk

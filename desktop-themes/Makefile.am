@@ -18,3 +18,5 @@ SUBDIRS = \
 	YaruOk \
 	YaruGreen
 
+
+-include $(top_srcdir)/git.mk

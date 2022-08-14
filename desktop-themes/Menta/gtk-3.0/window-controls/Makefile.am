@@ -20,3 +20,5 @@ theme_DATA = \
 	minimize_unfocused_prelight.png
 
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk

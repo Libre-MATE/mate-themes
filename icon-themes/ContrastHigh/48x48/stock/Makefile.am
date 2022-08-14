@@ -26,3 +26,5 @@ icon_DATA= \
 	gtk-yes.png
 
 EXTRA_DIST=	$(icon_DATA) 
+
+-include $(top_srcdir)/git.mk

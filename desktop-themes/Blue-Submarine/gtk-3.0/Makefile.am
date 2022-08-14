@@ -27,3 +27,5 @@ SUBDIRS = \
 
 DIST_SUBDIRS = \
 	assets
+
+-include $(top_srcdir)/git.mk

@@ -11,3 +11,5 @@ SUBDIRS= \
 	places-extra \
 	status \
 	status-extra
+
+-include $(top_srcdir)/git.mk

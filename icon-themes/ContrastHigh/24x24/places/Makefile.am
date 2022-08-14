@@ -27,3 +27,5 @@ icon_DATA= \
 	user-trash.png
 
 EXTRA_DIST=	$(icon_DATA) 
+
+-include $(top_srcdir)/git.mk

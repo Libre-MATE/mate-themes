@@ -11,3 +11,5 @@ SUBDIRS = apps \
 DIST_SUBDIRS =  apps \
 	assets
 
+
+-include $(top_srcdir)/git.mk

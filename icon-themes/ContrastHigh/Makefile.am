@@ -20,3 +20,5 @@ endif
 
 CLEANFILES = $(indextheme_DATA)
 EXTRA_DIST = $(indextheme_in_files)
+
+-include $(top_srcdir)/git.mk

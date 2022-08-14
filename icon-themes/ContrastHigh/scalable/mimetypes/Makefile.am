@@ -25,3 +25,5 @@ icon_DATA= \
 	x-office-spreadsheet.svg
 
 EXTRA_DIST=	$(icon_DATA) 
+
+-include $(top_srcdir)/git.mk

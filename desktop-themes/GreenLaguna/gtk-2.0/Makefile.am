@@ -9,3 +9,5 @@ theme_DATA = gtkrc \
 EXTRA_DIST = $(theme_DATA)
 
 SUBDIRS = Styles
+
+-include $(top_srcdir)/git.mk

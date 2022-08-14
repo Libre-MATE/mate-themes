@@ -27,3 +27,5 @@ theme_DATA = \
 	trash-icon.png
 
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk

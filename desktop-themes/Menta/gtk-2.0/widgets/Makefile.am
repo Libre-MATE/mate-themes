@@ -14,3 +14,5 @@ SUBDIRS = \
 	Null \
 	Others \
 	Scale
+
+-include $(top_srcdir)/git.mk

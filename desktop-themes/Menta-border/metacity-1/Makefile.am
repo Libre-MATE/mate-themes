@@ -32,3 +32,5 @@ theme_DATA = \
 	unmaximize_unfocused.svg
 
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk

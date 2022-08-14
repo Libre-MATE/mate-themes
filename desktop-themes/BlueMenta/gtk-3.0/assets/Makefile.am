@@ -62,3 +62,5 @@ theme_DATA = \
 	thumbnail-frame.png
 
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk

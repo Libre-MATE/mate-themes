@@ -18,3 +18,5 @@ CLEAN = \
 
 SUBDIRS = \
 	assets
+
+-include $(top_srcdir)/git.mk

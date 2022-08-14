@@ -9,3 +9,5 @@ theme_DATA = \
 
 EXTRA_DIST = $(theme_DATA)
 
+
+-include $(top_srcdir)/git.mk

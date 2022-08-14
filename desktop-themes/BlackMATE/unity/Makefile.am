@@ -33,3 +33,5 @@ theme_DATA = \
 	unmaximize_unfocused_pressed.png
 
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk

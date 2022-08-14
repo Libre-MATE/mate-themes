@@ -56,3 +56,5 @@ icon_DATA=	\
 	video-display.png
 		
 EXTRA_DIST=	$(icon_DATA) 
+
+-include $(top_srcdir)/git.mk

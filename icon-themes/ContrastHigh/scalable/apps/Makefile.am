@@ -24,3 +24,5 @@ icon_DATA= \
 	utilities-terminal.svg
 
 EXTRA_DIST=	$(icon_DATA) 
+
+-include $(top_srcdir)/git.mk

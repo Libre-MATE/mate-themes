@@ -35,3 +35,5 @@ dist-hook:
 		 done) \
 	done
 
+
+-include $(top_srcdir)/git.mk

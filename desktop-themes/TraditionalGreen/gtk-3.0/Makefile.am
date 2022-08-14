@@ -23,3 +23,5 @@ CLEAN = \
 
 SUBDIRS = \
 	img
+
+-include $(top_srcdir)/git.mk

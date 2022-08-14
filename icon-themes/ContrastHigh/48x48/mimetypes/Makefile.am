@@ -19,3 +19,5 @@ icon_DATA= \
 	x-office-calendar.png
 
 EXTRA_DIST=	$(icon_DATA) 
+
+-include $(top_srcdir)/git.mk

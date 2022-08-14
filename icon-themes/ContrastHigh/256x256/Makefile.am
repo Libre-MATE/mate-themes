@@ -9,3 +9,5 @@ SUBDIRS= \
 	places \
 	status \
 	stock
+
+-include $(top_srcdir)/git.mk

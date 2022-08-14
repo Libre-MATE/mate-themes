@@ -5,3 +5,5 @@ theme_DATA = \
 	README
 
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk

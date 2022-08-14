@@ -65,3 +65,5 @@ theme_DATA = \
 	switch-on.svg
 	
 EXTRA_DIST = $(theme_DATA)
+
+-include $(top_srcdir)/git.mk
