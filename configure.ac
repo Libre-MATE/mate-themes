@@ -22,13 +22,7 @@ AC_INIT([mate-themes],
 AC_PREREQ(2.53)
 AC_COPYRIGHT([Copyright (C) 2022 Libre MATE])
 AC_CONFIG_SRCDIR([icon-themes])
-
-AM_INIT_AUTOMAKE([1.9 tar-ustar dist-xz no-dist-gzip check-news])
-
-# Enable silent build rules by default, requires at least
-# Automake-1.11. Disable by either passing --disable-silent-rules to
-# configure or passing V=1 to make
-m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
+AM_INIT_AUTOMAKE([1.11 tar-ustar dist-xz no-dist-gzip silent-rules check-news])
 
 AM_GNU_GETTEXT([external])
 PKG_PROG_PKG_CONFIG([0.19])
