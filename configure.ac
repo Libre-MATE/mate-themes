@@ -22,7 +22,8 @@ AC_INIT([mate-themes],
 AC_PREREQ(2.53)
 AC_COPYRIGHT([Copyright (C) 2022 Libre MATE])
 AC_CONFIG_SRCDIR([icon-themes])
-AM_INIT_AUTOMAKE([1.11 tar-ustar dist-xz no-dist-gzip silent-rules check-news])
+AM_INIT_AUTOMAKE([1.11 tar-ustar dist-xz no-dist-gzip check-news])
+AM_SILENT_RULES([yes])
 
 AM_GNU_GETTEXT([external])
 PKG_PROG_PKG_CONFIG([0.19])
